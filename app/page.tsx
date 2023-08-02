@@ -1,5 +1,6 @@
 import Categories from "@/components/Categories";
 import Hero from "@/components/Hero";
+import Stories from "@/components/Stories";
 import { FC } from "react";
 
 const Home: FC = () => {
@@ -7,6 +8,7 @@ const Home: FC = () => {
     <main>
       <Hero />
       <Categories />
+      <Stories />
     </main>
   );
 };
